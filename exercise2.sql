@@ -11,5 +11,5 @@ alter table customer
 add constraint fk_fm foreign key (favourite_movie) references film(film_id) ON UPDATE CASCADE ON DELETE RESTRICT
 ;
 
-alter table customer drop constraint fk_fm;
-
+--from here is the second part of the exercise
+select * from customer;

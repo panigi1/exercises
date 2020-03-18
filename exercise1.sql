@@ -53,5 +53,5 @@ values (606,'K Beranovu 1173/1','Dolni Chabry',601,18400,605201458);
 select * from customer c;
 
 insert into customer(
-customer_id,store_id,first_name,last_name,email,address_id)
-values (600,1,'IGOR','PANIGADA','ipanigada@gmail.com',606);
+store_id,first_name,last_name,email,address_id)
+values (1,'IGOR','PANIGADA','ipanigada@gmail.com',606);
